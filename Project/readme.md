@@ -13,8 +13,8 @@ A lightweight C++ command-line tool that finds the shortest path between two poi
 
 ## Complexity Analysis
 * **Time Complexity**: O((V + E) log V) <br>
-V is the number of vertices / cells in the grid (rows*columns) <br>
-E is the possible moves between cells. Since 8-directional movement is allowed, E nearly equals 8*V <br>
+V is the number of vertices / cells in the grid (rows x columns) <br>
+E is the possible moves between cells. Since 8-directional movement is allowed, E nearly equals 8V <br>
 The log V factor comes from the Min-Heap (Priority Queue) operations used to extract the minimum distance node.
 * **Space Complexity**: O(V) <br>
 We store a 2D distance array and a parent map, both proportional to the number of cells in the grid.
