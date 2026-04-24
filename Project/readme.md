@@ -2,7 +2,7 @@
 A lightweight C++ command-line tool that finds the shortest path between two points in a grid-based maze. It uses Dijkstra's Algorithm to handle pathfinding and supports 8-directional movement (horizontal, vertical, and diagonal).
 
 ## Features
-* 8-Directional Movement
+* 8-Directional Movement 
 * Customizable Grids
 * Visual Output- Shortest Path between points
 
