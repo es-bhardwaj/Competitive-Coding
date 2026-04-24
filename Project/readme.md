@@ -1,5 +1,5 @@
 ## Maze Solver
-A lightweight C++ command-line tool that finds the shortest path between two points in a grid-based maze. It uses Dijkstra's Algorithm to handle pathfinding and supports 8-directional movement (horizontal, vertical, and diagonal).
+A lightweight C++ command-line tool that finds the shortest path between two points in a grid-based maze. It uses **Dijkstra's Algorithm** to handle pathfinding and supports 8-directional movement (horizontal, vertical, and diagonal).
 
 ## Project Structure
 * `maze-solver.cpp`: Standalone C++ implementation for reference.
